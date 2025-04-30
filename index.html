@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miss C Tutoring</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Flowbite Navbar -->
+    
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="assets/logo.png" class="h-8" alt="Logo">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Miss C Tutoring</span>
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contact</button>
+            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+            <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+            </li>
+            <li>
+            <a href="#about" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            </li>
+            <li>
+            <a href="#services" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+            </li>
+            <li>
+            <a href="contact.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            </li>
+        </ul>
+        </div>
+        </div>
+    </nav>
+  
+    <!-- Hero/CTA Section -->
+        <div
+    class="hero min-h-screen"
+    style="background-image: url(assets/headlands.jpg);"
+    >
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-neutral-content text-center">
+        <div class="max-w-md">
+        <h1 class="mb-5 text-5xl font-bold">Specialized K-4 Tutoring in Marin County</h1>
+        <p class="mb-5">
+            Providing individualized, multi-sensory tutoring for elementary students. Specializing in reading, writing, math, and learning strategies. Expert support for students with ADHD, Dyslexia and Learning Disabilities.
+        </p>
+        <button class="btn btn-primary">Schedule a Consultation</button>
+        </div>
+    </div>
+    </div>
+    <!-- Hero section 2-->
+    <div id="services" class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row">
+          <img
+            src="assets/student_gg.jpg"
+            class="max-w-sm rounded-lg shadow-2xl"
+          />
+          <div>
+            <h1 class="text-5xl font-bold">Personalized Instructional Intervention</h1>
+            <div class="py-6 space-y-4">
+              <div>
+                <h2 class="text-2xl font-semibold">ADHD Support</h2>
+                <p>
+                  Specialized strategies and tools to help students with ADHD stay focused, organized, and engaged in their learning. Our structured approach builds executive functioning skills while maintaining enthusiasm for learning.
+                </p>
+              </div>
+              <div>
+                <h2 class="text-2xl font-semibold">Dyslexia Intervention</h2>
+                <p>
+                  Evidence-based, multi-sensory techniques specifically designed for students with dyslexia. We focus on building phonological awareness, decoding skills, and reading fluency through systematic instruction.
+                </p>
+              </div>
+              <div>
+                <h2 class="text-2xl font-semibold">Learning Difficulties</h2>
+                <p>
+                  Comprehensive support for various learning challenges, including processing speed, working memory, and comprehension difficulties. Individualized approaches that work with your child's unique learning style.
+                </p>
+              </div>
+            </div>
+            <button class="btn btn-primary">Contact Me</button>
+          </div>
+        </div>
+      </div>
+
+    <!-- about me section-->
+    <section id="about" class="bg-base-100 py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-20">
+        <!-- Image Column -->
+        <div class="flex-shrink-0 lg:w-1/3">
+          <img class="rounded-full w-64 h-64 mx-auto lg:w-80 lg:h-80 object-cover shadow-lg" src="assets/missC.png" alt="Miss C Profile Picture">
+        </div>
+        <!-- Text Content Column -->
+        <div class="lg:w-2/3 text-center lg:text-left">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">About Miss C</h2>
+          <p class="text-gray-600 text-lg mb-8">
+            I provide individualized, focused academic tutoring services for students in elementary level reading, writing, and math. My focus is to establish a positive, relationship-based approach that empowers students by improving their academic, social, and organizational skills so they become better learners.
+          </p>
+          <h3 class="text-2xl font-semibold text-gray-700 mb-4">Here is a list of schools that my students attend:</h3>
+          <ul class="space-y-3 mb-10 text-gray-600 text-base">
+            <li class="flex items-center justify-center lg:justify-start">
+              <!-- Placeholder Icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary" viewBox="0 0 20 20" fill="currentColor"> <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" /> </svg>
+              Anthony G Bacich Elementary School - Kentfield School District
+            </li>
+            <li class="flex items-center justify-center lg:justify-start">
+              <!-- Placeholder Icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary" viewBox="0 0 20 20" fill="currentColor"> <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" /> </svg>
+              Miller Creek School District
+            </li>
+            <li class="flex items-center justify-center lg:justify-start">
+              <!-- Placeholder Icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary" viewBox="0 0 20 20" fill="currentColor"> <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" /> </svg>
+              Mill Valley School District
+            </li>
+            <li class="flex items-center justify-center lg:justify-start">
+              <!-- Placeholder Icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary" viewBox="0 0 20 20" fill="currentColor"> <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" /> </svg>
+              San Rafael Elementary Schools
+            </li>
+          </ul>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimionals section-->
+     
+    <div class="grid mb-8 border border-gray-200 rounded-lg shadow-xs dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800">
+        <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+            <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Amazing Progress in Reading</h3>
+                <p class="my-4">"Miss C's multi-sensory approach made such a difference for my son. His reading confidence has grown tremendously and he actually looks forward to their sessions!"</p>
+            </blockquote>
+            <figcaption class="flex items-center justify-center">
+                <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right">
+                    <div>Sarah Thompson</div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400 ">Parent of 2nd Grader</div>
+                </div>
+            </figcaption>    
+        </figure>
+        <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+            <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Expert Support for ADHD</h3>
+                <p class="my-4">"The learning strategies Miss C taught my daughter have been invaluable. She's better organized and more confident in her schoolwork. We're seeing improvements across all subjects!"</p>
+            </blockquote>
+            <figcaption class="flex items-center justify-center">
+                <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right">
+                    <div>Michelle Rodriguez</div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400">Parent of 4th Grader</div>
+                </div>
+            </figcaption>    
+        </figure>
+        <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-es-lg md:border-b-0 md:border-e dark:bg-gray-800 dark:border-gray-700">
+            <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Transformative Math Support</h3>
+                <p class="my-4">"My daughter struggled with math anxiety, but Miss C's patient approach and creative teaching methods have helped her build both skills and confidence. The transformation has been remarkable!"</p>
+            </blockquote>
+            <figcaption class="flex items-center justify-center">
+                <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right">
+                    <div>David Chen</div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400">Parent of 3rd Grader</div>
+                </div>
+            </figcaption>    
+        </figure>
+        <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+            <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Specialized Dyslexia Support</h3>
+                <p class="my-4">"Finding Miss C was a game-changer for our family. Her understanding of dyslexia and individualized approach has helped my son make incredible progress in reading and writing."</p>
+            </blockquote>
+            <figcaption class="flex items-center justify-center">
+                <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right">
+                    <div>Jennifer Morris</div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400">Parent of 1st Grader</div>
+                </div>
+            </figcaption>    
+        </figure>
+    </div>
+
+
+    <!-- Footer -->
+    
+
+    <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a href="about.html" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+                <a href="contact.html" class="hover:underline">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+
+     <script>
+         // Simple script to toggle theme (optional)
+         // You might need a button or UI element to trigger this
+         function toggleTheme() {
+             const html = document.documentElement;
+             const currentTheme = html.getAttribute('data-theme');
+             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+             html.setAttribute('data-theme', newTheme);
+         }
+     </script>
+</body>
+</html> 
